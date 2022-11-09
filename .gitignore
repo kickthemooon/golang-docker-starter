@@ -1,0 +1,5 @@
+.idea/
+output/*
+!output/.gitkeep
+gopath/*
+!gopath/.gitkeep
