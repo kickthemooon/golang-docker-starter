@@ -3,6 +3,7 @@ cd "${0%/*}"
 root_dir="$(pwd)"
 
 version="${VERSION:-1.19}"
+image="golang:${version}"
 
 container_app_dir="/app"
 container_cache_dir="output/cache"
@@ -19,4 +20,4 @@ docker run --rm \
   --volume "${root_dir}:/${container_app_dir}" \
   --env "GOCACHE=${container_app_dir}/${container_cache_dir}" \
   --env "GOPATH=${container_app_dir}/${container_gopath_dir}" \
-  golang:${version} go $@
+  "${image}" go $@

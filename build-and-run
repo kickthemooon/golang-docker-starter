@@ -1,5 +1,6 @@
 #!/bin/bash
 cd "${0%/*}"
 
-./go build -v -o "../output/" main.go \
-  && ./output/main
+./go build -o "../output/" main.go
+
+./output/main
