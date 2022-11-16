@@ -4,6 +4,11 @@ This is just a very small starter kit that enables
 a quick-start to get our hands dirty 
 running some go code using docker
 
+## Requirements
+
+- docker
+- shell (Linux, MacOS, MS WSL2, VM)
+
 ## Start Programming
 
 You can start programming in the `./src/main.go` file.
