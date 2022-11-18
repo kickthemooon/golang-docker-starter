@@ -6,8 +6,8 @@ running some go code using docker
 
 ## Requirements
 
-- docker
-- shell (Linux, MacOS, MS WSL2, VM)
+- A Shell (Linux, MacOS, MS WSL2, VM)
+- Docker
 
 ## Start Programming
 
