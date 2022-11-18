@@ -4,7 +4,7 @@ This is just a very small starter kit that enables
 a quick-start to get our hands dirty 
 running some go code using docker
 
-## Requirements
+## Prerequisites
 
 - A Shell (Linux, MacOS, MS WSL2, VM)
 - Docker
